@@ -1,0 +1,21 @@
+body{
+    background-color:silver;
+}
+
+.elements{
+    position:relative;
+    box-sizing: border-box;
+}
+
+.container{
+    width :800px;
+    height :600px;
+    margin: auto;
+    background-color:whitesmoke;
+}
+.container > div{
+    background-color:silver;
+    width: 100px;
+    height:100px;
+    border: 1px solid black;       
+}
